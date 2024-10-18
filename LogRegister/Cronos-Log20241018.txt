@@ -1,0 +1,27 @@
+2024-10-18 09:10:20.481 -03:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-18 09:10:20.562 -03:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-18 09:10:20.563 -03:00 [INF] Quartz Scheduler created
+2024-10-18 09:10:20.567 -03:00 [INF] RAMJobStore initialized.
+2024-10-18 09:10:20.571 -03:00 [INF] Quartz Scheduler 3.13.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-18 09:10:20.571 -03:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-18 09:10:20.571 -03:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-18 09:10:20.572 -03:00 [INF] # Creating new Cronos Job Factory
+2024-10-18 09:10:20.572 -03:00 [INF] JobFactory set to: gP2os.Cronos.Scheduler.Services.JobFactory.CronosJobFactory
+2024-10-18 09:10:20.574 -03:00 [INF] Configuring QuartzSchedule:InvoiceNotificationTriggerTime Scheduler with Trigger time: */10 * * * * ? *
+2024-10-18 09:10:20.592 -03:00 [INF] Configuring QuartzSchedule:BackOrderNotificationTriggerTime Scheduler with Trigger time: */3 * * * * ? *
+2024-10-18 09:10:20.593 -03:00 [INF]        Configuring Cronos Scheduler with Trigger time: */30 * * * * ? *
+2024-10-18 09:10:20.595 -03:00 [INF]      Starting Scheduler
+2024-10-18 09:10:20.596 -03:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-18 09:10:20.618 -03:00 [INF] Invoice Notification Job   - Running at 18/10/2024 09:10:20
+2024-10-18 09:10:21.006 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:21
+2024-10-18 09:10:21.651 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-18 09:10:21.652 -03:00 [INF] Hosting environment: Development
+2024-10-18 09:10:21.652 -03:00 [INF] Content root path: E:\gP2osModel\gP2os.Cronos\gP2os.Cronos.Scheduler
+2024-10-18 09:10:24.003 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:24
+2024-10-18 09:10:27.004 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:27
+2024-10-18 09:10:30.014 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:30
+2024-10-18 09:10:30.022 -03:00 [INF] Invoice Notification Job   - Running at 18/10/2024 09:10:30
+2024-10-18 09:10:33.005 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:33
+2024-10-18 09:10:36.011 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:36
+2024-10-18 09:10:39.017 -03:00 [INF] BackOrder Notification Job - Running at 18/10/2024 09:10:39
+2024-10-18 09:10:39.518 -03:00 [INF] Application is shutting down...

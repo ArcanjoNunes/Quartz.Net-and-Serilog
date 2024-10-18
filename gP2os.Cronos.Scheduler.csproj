@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-gP2os.Cronos.Scheduler-56f5bebb-460c-43af-b689-46edcb070bd7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Worker.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Quartz" Version="3.13.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.13.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LogRegister\" />
+  </ItemGroup>
+</Project>
